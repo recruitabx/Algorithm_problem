@@ -1,0 +1,141 @@
+.algorithm {
+	background-color: white;
+	height: 100%;
+}
+.algorithm1 {
+	background-color: white;
+	height: 100%;
+}
+.algorithm-items {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	align-items: center;
+	box-sizing: border-box;
+
+}
+.a-item-text {
+width: 190px;
+color: #000000;
+font-family: Tahoma;
+font-size: 17px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.algorithm-title {
+height: 22px;
+color: #000000;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 400;
+padding-top: 24px;
+}
+.new-algorithm-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	justify-content: space-around;
+}
+.algorithm-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+/*старый лг иксЛ*/
+
+.alorithm-item {
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.arrow-item {
+	display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+padding-bottom: 60px;
+}
+@media screen and (max-width: 991px) {
+.arrow-item {
+display:none;
+}
+.algorithm1{
+	display: none;
+}
+/.algorithm-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 15px;
+
+}
+.algorithm-item-last {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.n-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+}
+
+@media screen and (min-width: 992px) {
+.algorithm-items{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	
+	flex-direction: row;
+}
+.algorithm-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column !important;
+	text-align: center;
+}
+.algorithm{
+	display: none;
+}
+
+}
